@@ -76,9 +76,6 @@ Bei Fragen wende dich einfach direkt an das Angular-Schule-Team:
 
 <img src="http://assets.angular.schule/logo-angular-schule.png" height="60">
 
-### &copy; 2017 http://angular.schule, Stand: 11.09.2017
-
-
 ### &copy; 2017 http://angular.schule, Stand: 14.09.2017
 
 
