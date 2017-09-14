@@ -10,7 +10,7 @@ Hier wird während des Workshops stets der Quelltext unserer Beispielanwendung v
 > **https://github.com/angular-schule/2017-09-angular-workshop-adc**
 
 Damit wir gleich durchstarten können, solltest Du ein paar Vorbereitungen treffen.
-Die gesamte Installation wird rund 30 Minuten dauern. 
+Die gesamte Installation wird rund 15 Minuten dauern. 
 
 
 ## Benötigte Software
