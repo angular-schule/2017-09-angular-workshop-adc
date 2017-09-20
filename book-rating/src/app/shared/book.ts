@@ -19,4 +19,12 @@ export class Book {
       this.rating--;
     }
   }
+
+  get rateUpAllowed() {
+    return this.rating < 5;
+  }
+
+  get rateDownAllowed() {
+    return this.rating > 0;
+  }
 }

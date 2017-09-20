@@ -1,0 +1,25 @@
+<div class="card mb-4">
+  <div class="card-body bg-light">
+
+  <div class="img-thumbnail float-right">
+    <img src="//ng-buch.de/avatar/{{ book.rating }}">
+    <!-- <img [src]="'//ng-buch.de/avatar/' + book.rating "> -->
+  </div>
+
+  <h2>{{ book.title }} <small>Stars {{ book.rating }}</small></h2>
+
+  <p>
+    {{ book.description }}
+  </p>
+
+  <button
+    [disabled]="!book.rateDownAllowed"
+    (click)="book.rateDown()"
+    class="btn btn-default">-1</button>
+  <button
+    [disabled]="!book.rateUpAllowed"
+    (click)="book.rateUp()"
+    class="btn btn-default">+1</button>
+
+  </div>
+</div>
