@@ -12,13 +12,19 @@
     {{ book.description }}
   </p>
 
+  <!--
+  Change Detection Demo:
+  <b>{{ test.value }}</b>
+  <input value="hallo" #test>
+  <!-- --> -->
+
   <button
-    [disabled]="!book.rateDownAllowed"
-    (click)="book.rateDown()"
+    [disabled]="rateDownDisabled()"
+    (click)="rateDown()"
     class="btn btn-default">-1</button>
   <button
-    [disabled]="!book.rateUpAllowed"
-    (click)="book.rateUp()"
+    [disabled]="rateUpDisabled()"
+    (click)="rateUp()"
     class="btn btn-default">+1</button>
 
   </div>
