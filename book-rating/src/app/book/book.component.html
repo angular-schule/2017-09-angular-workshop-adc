@@ -16,16 +16,20 @@
   Change Detection Demo:
   <b>{{ test.value }}</b>
   <input value="hallo" #test>
-  <!-- --> -->
+  -->
 
   <button
     [disabled]="rateDownDisabled()"
     (click)="rateDown()"
-    class="btn btn-default">-1</button>
+    class="btn">-1</button>
   <button
     [disabled]="rateUpDisabled()"
     (click)="rateUp()"
-    class="btn btn-default">+1</button>
+    class="btn btn-danger">+1</button>
+
+  <button
+    [routerLink]="['/book', book.isbn]"
+    class="btn">Details</button>
 
   </div>
 </div>
